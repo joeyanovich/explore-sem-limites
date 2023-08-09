@@ -95,3 +95,73 @@ main{
     font-weight: normal;
     color: #312D64;
 }
+.footer-form{
+    background-image: url(../assets/footer-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.form{
+    margin: auto;
+    padding: 100px 0px;
+}
+.footer-form h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #B52184;
+}
+form{
+    margin-top: 46px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.input{
+    position: relative;
+    max-width: 500px;
+}
+.input input{
+    position: relative;
+    height: 40px;
+    min-width: 100%;
+    border-radius: 16px;
+    padding-left: 35px;
+    border: 2px solid #312D64;
+}
+.input img{
+    position: absolute;
+    width: 20px;
+    top: 10px;
+    left: 10px;
+}
+textarea{
+    max-width: 500px;
+    height: 100px;
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 2px solid #312D64;
+}
+input[type=submit]{
+    width: 200px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    background-image: linear-gradient(135deg, #343193, #302C63);
+}
+input[type=submit]:hover{
+    background-image: linear-gradient(135deg, #4643ac, #433e86);
+}
+/* footer{
+    padding: 30px;
+    background-image: linear-gradient(135deg, #343193, #302C63);;
+}
+footer h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+} */
